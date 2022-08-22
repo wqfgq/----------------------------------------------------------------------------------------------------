@@ -1,5 +1,5 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))() --you can go into the github link and copy all of it and modify it for yourself.
-local Window = Library:CreateWindow("Slammytron Reborn", Vector2.new(492, 598), Enum.KeyCode.RightShift) --you can change your UI keybind
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/cat"))()
+local Window = Library:CreateWindow("Slammytron Reborn", Vector2.new(492, 598), Enum.KeyCode.RightShift)
 local AimingTab = Window:CreateTab("Main") 
 local penis = Window:CreateTab("Misc") 
 local Characteristics = Window:CreateTab("Characteristics") 
@@ -9,7 +9,7 @@ local Config = Window:CreateTab("Config")
 
 
 
-local testSection = AimingTab:CreateSector("Main Shit", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
+local testSection = AimingTab:CreateSector("Main Shit", "left") 
 local Misc = penis:CreateSector("Misc", "left")
 local Characteristics = Characteristics:CreateSector("Characteristics", "left")
 local Visuals = Visuals:CreateSector("Visuals", "left")
